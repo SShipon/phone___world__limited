@@ -146,10 +146,94 @@
    background-color:rgb(14, 1, 26);
   }
 
+.contact__page{
+  background-color: black;
+  max-width: 1200px;
+  min-height: 350px;
+  margin-inline: auto;
+}
+.contact__page h3{
+  color: #ffff;
+  text-align: center;
+  font-size: 48px;
+  padding-top: 40px;
+}
+.container__contact{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+.contact{
+  display: flex;
+  min-width: 350px;
+  min-height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contact img{
+  width: 500px;
+  height: auto;
+}
+.contact input{
+  display: block;
+  padding: 10px;
+  outline: none;
+  border: none;
+  
+}
+.contact input:nth-child(4) {
+ background-color: rgb(194, 43, 43);
+ width: 200px;
+ display: block;
+ margin-inline: auto;
+  
+}
 
 
+   /* image section area */
 
+  .container__flex{
+    background-color: black;
+    color: #ffff;
+    max-width: 1200px;
+    min-height: 400px;
+    margin-inline: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 10px;
+  
+  }
+  .box__flex{
+    min-width: 300px;
+    min-height: 250px;
+    color: aliceblue;
+    background-color: rgb(97, 100, 98);
+    position: relative;
+  }
 
+  .box__flex img{
+    width: 250px;
+    position: absolute;
+    transition: calc(1fr);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+  }
+  .box__flex img:hover{
+     width: 260px;
+    
+  }
 
   /*  footer design section page  */
 
@@ -291,7 +375,12 @@
         
      }
         
-
+   #man{
+     order: -2;
+  }
+  #women{
+    order: -1;
+  }
      .btn__hero{
       width: 125px;
       height: 30px;
