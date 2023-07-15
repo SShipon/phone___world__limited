@@ -1,0 +1,418 @@
+/* first component work start */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.header___container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(41, 41, 0, 0.13);
+   padding: 20px;
+}
+.header___container__main{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.text___content{
+  font-size: 24px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.text__mini{
+  font-size: 1rem; 
+  padding-bottom: 20px;
+  color: rgba(14, 10, 10, 0.658);
+   
+}
+   
+.banner___container img{
+   width: 550px;
+   height: 350px;
+   border-radius: 5px;
+   transition: all 3s;
+}
+.banner___container img:hover{
+   width: 560px;
+   height: 400px;
+   border-radius: 5px;
+   transition: all 3s;
+}
+
+.btn__hero{
+ width: 125px;
+ height: 30px;
+ background-color:blueviolet;
+ color: #ffff;
+ border: none;
+ outline: none;
+ margin: 20px 0px;
+ border-radius: 5px;
+ transition: all 3s;
+ text-transform: uppercase;
+
+ 
+}
+.btn__hero:hover{
+
+    background-color:rgb(19, 3, 34);
+    color: #ffff;
+    
+   }
+
+
+
+
+
+/* second service component work done */
+
+
+
+
+
+
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 40px;
+}
+.main__container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  color: #ffff;
+  margin: 10px;
+  padding: 10px;
+ 
+}
+.box{
+   margin: 10px;
+   height: 400px;
+   padding: 10px;
+   background-color: black;
+   border-radius: 10px;
+   position: relative;
+  
+}
+.box img{
+  width: 250px;
+   display: block;
+   margin: auto;
+   transition: all 2s;  
+}
+.box img:hover{
+     width: 100%;
+     display: block;
+     margin: auto;
+     transition: all 1s;
+}
+.box h2{
+  margin-top: 20px;
+}
+
+.price___content{
+   margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.box p{
+  margin-top: 10px;
+}
+.phone__btn__hero{
+ width: 100%;
+ height: 30px;
+ background-color:blueviolet;
+ color: #ffff;
+ border: none;
+ outline: none;
+ border-radius: 5px;
+ transition: all 3s;
+ text-transform: uppercase;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ font-weight: bold;
+
+}
+
+.phone__btn__hero:hover{
+   background-color:rgb(14, 1, 26);
+  }
+
+
+
+
+
+
+  /*  footer design section page  */
+
+.bg___footer____background{
+  background-color: #cfc3d8fb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.footer___container___left__and__right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.footer___left{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+
+
+.main___footer____container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  
+}
+.footer___box span{
+   font-size: 20px;
+   font-weight: 700;
+   padding: 5px;
+  
+}
+.footer___box a{
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px;
+  color: rgb(17, 14, 14);
+}
+.footer___box a:hover{
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px;
+  color: rgb(241, 0, 93);
+}
+
+.footer__right{
+  width: 35%;
+}
+.footer__font__icon input{
+  width: 220px;
+  height: 35px;
+  position: relative;
+  outline: none;
+  border: none;
+}
+.footer__font__icon button{
+  width: 80px;
+  height: 35px;
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+  position: absolute;
+}
+.footer__font__icon i{
+  font-size: 36px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+/*   responsive design ad barkPoint  */
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: black;
+      color: #ffff;
+    }
+
+    .header___container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: rgba(41, 41, 0, 0.13);
+        padding: 5px;
+     }
+
+    .header___container__main{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+         align-items: center;
+         gap: 1rem;
+     }
+     .banner___container{
+     padding: 20px;
+    }
+     .banner___container img{
+       width: 100%;
+       height: auto;
+      border-radius: 5px;
+      transition: all 3s;
+   }
+   .banner___container img:hover{
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      transition: all 3s;
+   }
+     .text___content{
+       font-size: 20px;
+       text-transform: capitalize;
+       text-transform: uppercase;
+       padding-top: 20px;
+     }
+     .text__mini{
+        text-align: left;
+       font-size: 1rem; 
+       color: hsl(0, 100%, 97%);
+        
+     }
+        
+
+     .btn__hero{
+      width: 125px;
+      height: 30px;
+      background-color:blueviolet;
+      color: #ffff;
+      border: none;
+      outline: none;
+      margin: 10px 0px;
+      border-radius: 5px;
+      transition: all 3s;
+      font-weight: bold;
+      text-transform: uppercase;
+     
+      
+     }
+
+
+
+
+
+
+
+
+    /*  phone product sell component section */
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+     }
+
+    .main__container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        color: #ffff;
+        width: 100%;
+        gap: 20px;
+       
+      }
+      .box{
+        margin: 10px;
+        height: 100%;
+        padding: 10px;
+        background-color: rgba(241, 221, 221, 0.089);
+        border-radius: 10px;
+       
+     }
+
+     .box img{
+        width: 100%;
+        
+      }
+/* 
+
+  footer design container
+*/
+      .footer___container___left__and__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+     
+      .main___footer____container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        
+      }
+
+
+.footer___left{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+
+
+.footer___box a:hover{
+  color: rgb(241, 0, 93);
+}
+
+.footer__right{
+  width: 100%;
+  margin-right: 30px;
+  margin-left: -100px;
+
+}
+.footer__font__icon input{
+  width: 100%;
+  position: relative;
+  outline: none;
+  border: none;
+}
+.footer__font__icon button{
+  width: 80px;
+  height: 35px;
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+  position: absolute;
+}
+.footer__font__icon i{
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  text-align: center;
+ 
+}
+#copyRight{
+  text-align: left;
+  margin-left: -100px;
+  padding-bottom: 20px;
+}
+
+  }
